@@ -1,0 +1,91 @@
+/* media of header */
+@media (max-width: 900px) {
+    header {
+        flex-direction: column;
+        margin-top: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #logo {
+        margin-bottom: 20px;
+    }
+
+    .photo1 {
+        display: none;
+    }
+}
+
+/* media of menu bar */
+@media (max-width: 900px) {
+    .menu {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .active {
+        margin-right: 100px;
+    }
+
+    #info {
+        margin-left: 100px;
+    }
+}
+
+/* media of body */
+@media (max-width: 900px) {
+    .flex-contaner {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .column {
+        width: 100%;
+    }
+
+    .search-container {
+        display: none;
+    }
+
+    .date {
+        flex-direction: column;
+    }
+
+    .body {
+        width: 100%;
+    }
+
+    .card {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 70%;
+    }
+
+    .img1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+/* media of footer */
+@media (max-width: 900px) {
+    .footer {
+        flex-direction: column;
+    }
+
+    .links {
+        flex-direction: column;
+    }
+}
